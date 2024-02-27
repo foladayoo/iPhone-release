@@ -1,0 +1,83 @@
+body{
+    margin: 0px;
+    height: 100vh;
+    background-color: rgb(39, 39, 68);
+
+}
+
+.image img{
+    position: relative;
+    top: 15px;
+    left: 20px;
+    width: 45vw;
+    border-radius: 10px;
+}
+
+.countdown{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 0px;
+    height: 80vh;
+}
+
+.content{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.content h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.content h4{
+    margin: 0%;
+    color: rgb(243, 236, 236);
+}
+
+.content p{
+
+    font-size: larger;
+    padding-right: 30px;
+    color: wheat;
+}
+
+.count{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.time{
+    background-color: purple;
+    width: 80px;
+    height: 70px;
+    border-radius: 10px;
+    border-top: 30px;
+    border-bottom: 30px;
+}
+
+.time{
+
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: purple;
+    margin: 0px;
+
+}
+
+.time h1{
+    margin: 0px;
+    color: purple;
+    text-align: center;
+}
+
+.hearts{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    
+}
